@@ -79,7 +79,7 @@ function logIn(ingreso) {
         timeline.addClass('oculto');
         avatarSel.removeClass('oculto');
 
-        titulo.text('Seleccione Personaje');
+        titulo.text('Menu');
 
     }
 

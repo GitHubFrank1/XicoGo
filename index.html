@@ -5,7 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Twittor</title>
+    <link rel="stylesheet" href="font.css">
+    <link rel="stylesheet" href="style.css">
+    <title>XicoGo</title>
 
     <link href='https://fonts.googleapis.com/css?family=Quicksand:300,400' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Lato:400,300' rel='stylesheet' type='text/css'>
@@ -25,18 +27,31 @@
 <body>
     <!-- Titulo -->
     <span class="first"> 
-            <span id="salir-btn" class="fa fa-sign-out-alt out oculto animated fadeIn"></span>
-    <span id="titulo">
-                <i class="fa fa-user"></i>
-                Seleccione Personaje
-            </span>
+        <span id="salir-btn" class="fa fa-sign-out-alt out oculto animated fadeIn"></span>
+    <!--- Buscador-->
+    <div class="header-top"></div>
+    <div class="navegacion">
+        <input type="search" placeholder="Buscar . . ." id="inputBusqueda">
+    </div>
+    </div>
+    <div class="search" id="search">
+        <table class="search-table" id="searchTable">
+            <thead>
+                <tr>
+                    <td></td>
+                </tr>
+            </thead>
+        </table>
+    </div>
+    <!-- Fin Buscador -->
+
     <span id="nuevo-btn" class="fa fa-pen-square new oculto animated fadeIn fast"></span>
     </span>
     <!-- Fin Titulo -->
 
     <!-- Modal -->
     <div id="modal" class="oculto">
-        <img id="modal-avatar" src="img/avatars/spiderman.jpg">
+        <img id="modal-avatar" src="img/avatars/cuadrado.png">
 
         <span class="first"> 
                 <span id="titulo-modal">Nuevo mensaje</span>
@@ -71,23 +86,67 @@
     <div id="seleccion" class="seleccion animated fadeIn fast" align="center">
 
         <div>
-            <img data-user="spiderman" src="img/avatars/spiderman.jpg" alt="spiderman" class="seleccion-avatar">
+            <img data-user="cuadrado" src="img/imagenes/cuadrado.png" class="seleccion-publicacion">
         </div>
 
         <div>
-            <img data-user="ironman" src="img/avatars/ironman.jpg" alt="ironman" class="seleccion-avatar">
+            <img data-user="cuadrado" src="img/imagenes/cuadrado.png" class="seleccion-publicacion">
         </div>
 
         <div>
-            <img data-user="wolverine" src="img/avatars/wolverine.jpg" alt="wolverine" class="seleccion-avatar">
+            <img data-user="cuadrado" src="img/imagenes/cuadrado.png" class="seleccion-publicacion">
         </div>
 
         <div>
-            <img data-user="thor" src="img/avatars/thor.jpg" alt="thor" class="seleccion-avatar">
+            <img data-user="cuadrado" src="img/imagenes/cuadrado.png" class="seleccion-publicacion">
         </div>
 
         <div>
-            <img data-user="hulk" src="img/avatars/hulk.jpg" alt="hulk" class="seleccion-avatar">
+            <img data-user="cuadrado" src="img/imagenes/cuadrado.png" class="seleccion-publicacion">
+        </div>
+
+        <div>
+            <img data-user="cuadrado" src="img/imagenes/cuadrado.png" class="seleccion-publicacion">
+        </div>
+
+        <div>
+            <img data-user="cuadrado" src="img/imagenes/cuadrado.png" class="seleccion-publicacion">
+        </div>
+
+        <div>
+            <img data-user="cuadrado" src="img/imagenes/cuadrado.png" class="seleccion-publicacion">
+        </div>
+
+        <div>
+            <img data-user="cuadrado" src="img/imagenes/cuadrado.png" class="seleccion-publicacion">
+        </div>
+
+        <div>
+            <img data-user="cuadrado" src="img/imagenes/cuadrado.png" class="seleccion-publicacion">
+        </div>
+
+        <div>
+            <img data-user="cuadrado" src="img/imagenes/cuadrado.png" class="seleccion-publicacion">
+        </div>
+
+        <div>
+            <img data-user="cuadrado" src="img/imagenes/cuadrado.png" class="seleccion-publicacion">
+        </div>
+
+        <div>
+            <img data-user="cuadrado" src="img/imagenes/cuadrado.png" class="seleccion-publicacion">
+        </div>
+
+        <div>
+            <img data-user="cuadrado" src="img/imagenes/cuadrado.png" class="seleccion-publicacion">
+        </div>
+
+        <div>
+            <img data-user="cuadrado" src="img/imagenes/cuadrado.png" class="seleccion-publicacion">
+        </div>
+
+        <div>
+            <img data-user="cuadrado" src="img/imagenes/cuadrado.png" class="seleccion-publicacion">
         </div>
 
     </div>
@@ -116,7 +175,9 @@
     </ul>
     <!-- Fin Lista de mensajes -->
 
-
+    <div class="social-bar">
+        <a href="pages/publicar.html" class="icon icon-plus"></a>
+    </div>
 
 
     <script src="js/libs/jquery.js"></script>
