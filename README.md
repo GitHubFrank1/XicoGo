@@ -1,3 +1,3 @@
-# Chat de Héroes
+# XicoGo Encuentra lo que buscas de manera facil y rapida.
 
-Un cascarón de chat usando jQuery para PWAs
+La Mejor PWA de Negocios.# XicoGo
